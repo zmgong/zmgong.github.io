@@ -1,10 +1,10 @@
 :root {
     color-scheme: light;
-    --ink: #24332e;
-    --muted: #626e67;
-    --accent: #23664f;
-    --line: #dce3dc;
-    --paper: #fafbf8;
+    --ink: #263445;
+    --muted: #626d7a;
+    --accent: #3976a4;
+    --line: #dce3eb;
+    --paper: #fafbfc;
 }
 
 * { box-sizing: border-box; }
@@ -53,14 +53,14 @@ section > p { max-width: 720px; margin: 0 0 16px; }
 .publication:first-child { padding-top: 4px; }
 .year { padding-top: 3px; color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 h3 { margin: 0 0 9px; font-size: 1.06rem; font-weight: 650; line-height: 1.5; }
-h3 a { color: var(--ink); text-decoration: none; }
+h3 a { color: var(--accent); text-decoration: none; }
 h3 a:hover { color: var(--accent); text-decoration: underline; }
 .authors { margin: 0 0 8px; color: var(--muted); font-size: 0.86rem; line-height: 1.7; }
 .authors strong { color: var(--ink); font-weight: 650; }
 .venue { margin: 0 0 10px; font-size: 0.86rem; }
 .paper-links { display: flex; flex-wrap: wrap; gap: 9px; font-size: 0.78rem; }
-.paper-links a { padding: 2px 11px; border: 1px solid #c8d8ce; border-radius: 4px; text-decoration: none; }
-.paper-links a:hover { background: #edf3ec; }
+.paper-links a { padding: 2px 11px; border: 1px solid #c7ddf0; border-radius: 4px; background: #edf5fc; text-decoration: none; }
+.paper-links a:hover { background: #dfedfa; }
 .note { color: var(--muted); font-size: 0.8rem; margin: 18px 0 0; }
 .contact p { margin: 0 0 6px; }
 footer { padding: 24px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.77rem; }
